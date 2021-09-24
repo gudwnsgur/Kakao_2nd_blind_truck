@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        String x_auth_token = "7bf2bd0df3c7615afd6f9052f9f56c11";
+        String x_auth_token = "X-Auth-Token";
         int problem = 1;
         String authKey = Connection.getInstance().start(x_auth_token, problem);
 
